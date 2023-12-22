@@ -5,6 +5,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeroesModule } from './heroes/heroes.module';
 import { ContadorModule } from './contador/contador.module';
+import { PruebaModule } from './prueba/prueba.module';
+import { DbzModule } from './dbz/dbz.module';
 
 //CREAR UN MODULO LLAMADO CONTADOR.MODULE.TS
 
@@ -16,7 +18,9 @@ import { ContadorModule } from './contador/contador.module';
     BrowserModule,
     AppRoutingModule,
     HeroesModule,
-    ContadorModule
+    ContadorModule,
+    PruebaModule,
+    DbzModule
   ],
   providers: [
     provideClientHydration()
